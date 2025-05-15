@@ -15,24 +15,24 @@ import {
 import { ArrowUpward, ShowChart, SystemUpdateAlt } from "@mui/icons-material";
 
 const tableData = Array(11).fill({
-  script: "Silver Mar",
-  change: "0.022 (0.06%)",
-  time: "22:54:59.859",
-  volume: "Σ 6470",
-  open: "34.305",
+  script: "Palladium Mar",
+  change: "11.50 (1.19%)",
+  time: "22:29:59.294",
+  volume: "Σ 800",
+  open: "0.969.00",
   bid: {
-    whole: "29.",
-    fraction: "51",
+    whole: "97",
+    fraction: "0.5",
     decimal: "0",
-    price: "33.995",
-    close: "34.033",
+    price: "969.0",
+    close: "962.50",
   },
   ask: {
-    whole: "35.",
-    fraction: "98",
+    whole: "97",
+    fraction: "8.5",
     decimal: "0",
-    price: "34.305",
-    low: "34.055",
+    price: "974.0",
+    low: "974.00",
   },
 });
 
@@ -177,7 +177,7 @@ export default function StickyHeadTable() {
                 <TableCell sx={{ width: cellWidth }}>
                   <PriceCell
                     value={row.ask}
-                    color="#00f"
+                    color="#289eee"
                     icon={<ArrowUpward sx={{ color: "black", fontSize: 16 }} />}
                     label="L"
                     subValue={row.ask.low}
