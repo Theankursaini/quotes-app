@@ -17,5 +17,3 @@ You can choose between two official Vite plugins to enable React support with Fa
 
 Recommended: TypeScript & Type-Aware Linting
 For production-grade applications, it's highly recommended to use TypeScript along with type-aware linting. Check out the official React + TypeScript template for more details.
-
-You can also integrate typescript-eslint to enable advanced static analysis based on your types.
